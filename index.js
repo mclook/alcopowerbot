@@ -3,9 +3,8 @@ const TOKEN='654555427:AAHHyDDjZTrwb6oC0FXo0l446NRzhqDosMc'
 
 const bot=new TelegramBot(TOKEN,{polling:true})
 
-while (true) {
-    bot.polling(none_stop = True)
-}
+bot.polling(none_stop = True)
+
 
 
 
