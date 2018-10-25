@@ -2,7 +2,7 @@
   "name": "alcopowerbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index1.js",
   "scripts": {
     "start": "node index.js",
     "privet":"node index1.js"
