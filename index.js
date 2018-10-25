@@ -5,7 +5,7 @@ const bot=new TelegramBot(TOKEN,{polling:true})
 
 bot.onText(/бухло/,msg=>{
     bot.sendMessage(msg.chat.id,'пить')
-    bot.sendPhoto(msg.chat.id,photo='https://avatanplus.com/files/resources/original/588dd50e40b89159ea083fb9.png'%project.completion_photo)
+    bot.sendPhoto(msg.chat.id,'https://avatanplus.com/files/resources/original/588dd50e40b89159ea083fb9.png')
 })
 
 require('http').createServer().listen(process.env.PORT || 5000).on('request', function(req, res){
