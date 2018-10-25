@@ -10,7 +10,7 @@ bot.onText(/whatdrink/,msg=>{
     setTimeout(bot.sendMessage(msg.chat.id,randomNumber), 1000);
 
     //bot.sendMessage(msg.chat.id,randomNumber)
-    setTimeout(()=>{
+
     switch(randomNumber) {
         case 1: bot.sendPhoto(msg.chat.id,'https://avatanplus.com/files/resources/original/588dd50e40b89159ea083fb9.png');
             break;
@@ -34,7 +34,7 @@ bot.onText(/whatdrink/,msg=>{
             break;
         default:
             break;
-    }},1000);
+    }
 
    // bot.sendPhoto(msg.chat.id,'https://avatanplus.com/files/resources/original/588dd50e40b89159ea083fb9.png')
 
