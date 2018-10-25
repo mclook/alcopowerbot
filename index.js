@@ -3,10 +3,18 @@ const TOKEN='654555427:AAHHyDDjZTrwb6oC0FXo0l446NRzhqDosMc'
 
 const bot=new TelegramBot(TOKEN,{polling:true})
 
+while (true) {
+    bot.polling(none_stop = True)
+}
+
+
+
+
 bot.onText(/whatdrink/,msg=>{
     var randomNumber=Math.random() * (10 - 1) + 1;
     randomNumber = Math.round(randomNumber);
     bot.sendMessage(msg.chat.id,'пить')
+
     bot.sendMessage(msg.chat.id,randomNumber)
     switch(randomNumber) {
         case 1: bot.sendPhoto(msg.chat.id,'https://avatanplus.com/files/resources/original/588dd50e40b89159ea083fb9.png');
