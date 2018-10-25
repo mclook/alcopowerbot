@@ -6,3 +6,4 @@ const bot=new TelegramBot(TOKEN,{polling:true})
 bot.on('message',msg=>{
     bot.sendMessage(msg.chat.id,'Privet')
 })
+bot.
