@@ -36,7 +36,9 @@ bot.onText(/whatdrink/,msg=>{
    // bot.sendPhoto(msg.chat.id,'https://avatanplus.com/files/resources/original/588dd50e40b89159ea083fb9.png')
 
 })
-
+bot.onText(/whatkolicheva/,msg=>{
+    bot.sendMessage(msg.chat.id,'pidoraska')
+})
 require('http').createServer().listen(process.env.PORT || 5000).on('request', function(req, res){
     res.end('')
 })
