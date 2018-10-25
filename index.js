@@ -4,7 +4,7 @@ const TOKEN='654555427:AAHHyDDjZTrwb6oC0FXo0l446NRzhqDosMc'
 const bot=new TelegramBot(TOKEN,{polling:true})
 
 bot.onText(/что пить/,msg=>{
-    var randomNumber=Math.random()%10
+    var randomNumber=Math.random(10)
     bot.sendMessage(msg.chat.id,randomNumber)
     bot.sendMessage(msg.chat.id,'пить')
     bot.sendPhoto(msg.chat.id,'https://avatanplus.com/files/resources/original/588dd50e40b89159ea083fb9.png')
