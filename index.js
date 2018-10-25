@@ -3,7 +3,7 @@ const TOKEN='654555427:AAHHyDDjZTrwb6oC0FXo0l446NRzhqDosMc'
 
 const bot=new TelegramBot(TOKEN,{polling:true})
 
-bot.onText(/что пить/,msg=>{
+bot.onText(/whatdrink/,msg=>{
     var randomNumber=Math.random() * (10 - 1) + 1;
     randomNumber = Math.round(randomNumber);
     bot.sendMessage(msg.chat.id,'пить')
