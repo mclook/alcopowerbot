@@ -5,7 +5,9 @@ const bot=new TelegramBot(TOKEN,{polling:true})
 bot.onText(/привет/,msg=>{
     bot.sendMessage(msg.chat.id,'Привет')
 })
-
+bot.onText(/бухло/,msg=>{
+    bot.sendMessage(msg.chat.id,'пить')
+})
 bot.on('message',msg=>{
 
     bot.sendMessage(msg.chat.id,'Da')
