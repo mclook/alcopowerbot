@@ -4,7 +4,7 @@ const TOKEN='654555427:AAHHyDDjZTrwb6oC0FXo0l446NRzhqDosMc'
 const bot=new TelegramBot(TOKEN,{polling:true})
 
 
-
+bot.get_updates(allowed_updates=["channel_post"])
 bot.onText(/message123/,msg=>{
     bot.sendMessage(msg.chat.id,'/message123@haluavabot')
 })
