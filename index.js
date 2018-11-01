@@ -5,8 +5,16 @@ const bot=new TelegramBot(TOKEN,{polling:true})
 
 
 
-bot.onText(/message123/,msg=>{
-    bot.sendMessage(msg.chat.id,'/message123@haluavabot')
+bot.onText(/ИдтиНаПаруИлиНет/,msg=>{
+    var randomNumber=Math.random() * (2 - 1) + 1;
+    randomNumber = Math.round(randomNumber);
+    switch(randomNumber) {
+        case 1:  bot.sendMessage(msg.chat.id,'идти')
+            break;
+        case 2:  bot.sendMessage(msg.chat.id,'не идти')
+            break;
+        default:
+            break;}
 })
 
 
