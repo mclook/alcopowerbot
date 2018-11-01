@@ -5,7 +5,7 @@ const bot=new TelegramBot(TOKEN,{polling:true})
 
 
 
-bot.onText(/ИдтиНаПаруИлиНет/,msg=>{
+bot.onText(/goforacoupleornot/,msg=>{
     var randomNumber=Math.random() * (2 - 1) + 1;
     randomNumber = Math.round(randomNumber);
     switch(randomNumber) {

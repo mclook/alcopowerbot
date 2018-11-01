@@ -16,11 +16,12 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,14 +43,14 @@
         <counts>
           <entry key="Procfile" value="26" />
           <entry key="gitignore" value="18" />
-          <entry key="js" value="495" />
+          <entry key="js" value="523" />
           <entry key="json" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="94" />
-          <entry key="JavaScript" value="495" />
+          <entry key="JavaScript" value="523" />
           <entry key="PLAIN_TEXT" value="44" />
         </counts>
       </usages-collector>
@@ -60,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -138,7 +139,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="1693" />
     <option name="height" value="1017" />
@@ -202,14 +203,15 @@
       <workItem from="1540494733647" duration="8000" />
       <workItem from="1540500434258" duration="1936000" />
       <workItem from="1540746995120" duration="5185000" />
+      <workItem from="1541105718885" duration="323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16445000" />
+    <option name="totallyTimeSpent" value="16768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1693" height="1017" extended-state="1" />
+    <frame x="-7" y="0" width="1693" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120241694" />
@@ -238,10 +240,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -256,20 +272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
         </state>
       </provider>
     </entry>
