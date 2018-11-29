@@ -26,17 +26,17 @@ bot.onText(/whatdrink/,msg=>{
 
     bot.sendMessage(msg.chat.id,randomNumber)
     switch(randomNumber) {
-        case 1: bot.sendPhoto(msg.chat.id,'https://avatanplus.com/files/resources/original/588dd50e40b89159ea083fb9.png');
+        case 1: bot.sendPhoto(msg.chat.id,'https://i2.rozetka.ua/goods/1820797/vozduh_4820080728412_images_1820797027._S.jpg');
             break;
         case 2: bot.sendPhoto(msg.chat.id,'http://www.buhlo.info/images/stories/virtuemart/product/vodka-nemiroff-osobaya-nemirov-05.png');
             break;
-        case 3: bot.sendPhoto(msg.chat.id,'https://images.ua.prom.st/359446842_w640_h640_cid2316135_pid248416928-13565226.png');
+        case 3: bot.sendPhoto(msg.chat.id,'https://i2.rozetka.ua/goods/1820797/vozduh_4820080728412_images_1820797027._S.jpg');
             break;
         case 4: bot.sendPhoto(msg.chat.id,'http://byxlo.com.ua/upload/iblock/a0d/a0d06b684294762ecb914f523cac1ecb.png');
             break;
         case 5: bot.sendPhoto(msg.chat.id,'http://www.buxlo.com.ua/upload/iblock/f26/f26228e4849478b482750abe134bea62.png');
             break;
-        case 6: bot.sendPhoto(msg.chat.id,'http://i.otzovik.com/objects/b/220000/215799.png');
+        case 6: bot.sendPhoto(msg.chat.id,'https://i2.rozetka.ua/goods/1820797/vozduh_4820080728412_images_1820797027._S.jpg');
             break;
         case 7: bot.sendPhoto(msg.chat.id,'http://byxlo.com.ua/upload/iblock/a95/a9536d026935f80f7a8ee3475742db99.png');
             break;
