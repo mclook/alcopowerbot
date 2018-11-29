@@ -20,7 +20,7 @@ bot.onText(/goforacoupleornot/,msg=>{
 
 
 bot.onText(/whatdrink/,msg=>{
-    var randomNumber=Math.random() * (10 - 1) + 1;
+    var randomNumber=Math.random() * (12 - 1) + 1;
     randomNumber = Math.round(randomNumber);
     bot.sendMessage(msg.chat.id,'пить')
 
@@ -45,6 +45,10 @@ bot.onText(/whatdrink/,msg=>{
         case 9: bot.sendPhoto(msg.chat.id,'https://avatanplus.com/files/resources/original/57838a5264fad155d9d451ee.png');
             break;
         case 10: bot.sendPhoto(msg.chat.id,'https://avatanplus.com/files/resources/mid/578b87b031c32155f90a084c.png');
+            break;
+        case 11: bot.sendPhoto(msg.chat.id,'http://globalspirits.com.ua/sites/default/files/perec.jpg');
+            break;
+        case 12: bot.sendPhoto(msg.chat.id,'https://i2.rozetka.ua/goods/1820797/vozduh_4820080728412_images_1820797027._S.jpg');
             break;
         default:
             break;
